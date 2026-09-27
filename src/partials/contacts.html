@@ -1,0 +1,85 @@
+<section class="contact-section">
+  <div class="container contact-container">
+    <div class="contact-content">
+      <h3 class="contact-subtitle">Contacts</h3>
+      <h2 class="contact-title">Get in Touch</h2>
+      <p class="contact-description">We'd love to hear from you anytime!</p>
+
+      <ul class="contact-info">
+        <li>
+          <svg class="contact-icon" width="24" height="24">
+<use href="/img/sprite.svg#icon-envelope"></use>
+          </svg>
+          <a href="mailto:hello@organicstore.com" class="contact-link"
+            >hello@organicstore.com</a
+          >
+        </li>
+        <li>
+          <svg class="contact-icon" width="24" height="24">
+            <use href="/img/sprite.svg#icon-phone"></use>
+          </svg>
+          <a href="tel:+15553291024" class="contact-link">+1 (555) 329-1024</a>
+        </li>
+      </ul>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="user-name">Name</label>
+          <input
+            type="text"
+            id="user-name"
+            name="name"
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            placeholder="Sarah"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="user-email">Email</label>
+          <input
+            type="email"
+            id="user-email"
+            name="email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            placeholder="hello@organic.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="user-message">Message</label>
+          <textarea
+            id="user-message"
+            name="message"
+            maxlength="500"
+            placeholder="Type your message..."
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="contact-image-wrapper">
+<picture>
+  <source 
+    srcset="/img/mission/family@1.jpg 1x,  /img/mission/family@2.jpg 2x" 
+    media="(min-width: 1440px)"
+  />
+  <source 
+    srcset="/img/mission/family@1.jpg 1x, /img/mission/family@2.jpg 2x" 
+    media="(min-width: 768px)"
+  />
+  <source 
+    srcset="/img/mission/family@1.jpg 1x, /img/mission/family@2.jpg 2x"
+  />
+
+  <img 
+    src="/img/mission/family@1.jpg" 
+    alt="Our friendly team" 
+    class="contact-image" 
+    loading="lazy"
+  />
+</picture>
+    </div>
+  </div>
+</section>

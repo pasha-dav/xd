@@ -1,0 +1,48 @@
+.section.mission {
+  background-color: #5e8a4d;
+}
+
+.mission-title {
+  color: #fff;
+}
+
+.mission-description {
+  margin: 24px 0 32px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-picture {
+    width: 704px;
+  }
+  .mission-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 32px;
+  }
+  .mission-title {
+    width: 340px;
+  }
+  .mission-description {
+    width: 340px;
+    margin: 0;
+  }
+  .mission-picture {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mission-title {
+    width: 644px;
+    font-size: 48px;
+  }
+  .mission-description {
+    width: 644px;
+  }
+  .mission-picture {
+    width: 1312px;
+  }
+}

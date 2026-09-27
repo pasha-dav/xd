@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Public Sans', 'Chivo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+main {
+  flex-grow: 1;
+}
+
+main:has(.back-link) {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Chivo', 'Public Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #010400;
+}
+
+p {
+  color: #010400;
+}
+
+section {
+  padding: 64px 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  section {
+    max-width: 1440px;
+    padding: 112px 0;
+  }
+}
