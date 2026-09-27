@@ -3,7 +3,7 @@
   <!-- #region Head -->
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/git-pushers-team-project/assets/favicon-CJQB9udx.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Organic Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,21 +19,58 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" crossorigin href="/git-pushers-team-project/assets/index-DTTfBgt9.css">
+    <script type="module" crossorigin src="/git-pushers-team-project/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/git-pushers-team-project/assets/index-Dgyomqn9.css">
   </head>
   <!-- #endregion -->
 
   <body>
-    <!-- #region Header - Єгор Кравченко -->
-    Header
+    <!-- #region Header - Єгор Кравченко, Павло -->
+    <header class="header" id="header">
+  <div class="container header-container">
+    <a href="./index.html" class="header-logo" aria-label="Organic Shop logo">
+      <svg width="142" height="60">
+        <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li><a href="./index.html" class="nav-link">Home</a></li>
+        <li><a href="#mission" class="nav-link">Mission</a></li>
+        <li><a href="#benefits" class="nav-link">Benefits</a></li>
+        <li><a href="#assorts" class="nav-link">Assortment</a></li>
+        <li><a href="#feedbacks" class="nav-link">Feedbacks</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <a href="#assorts" class="order-btn">Order</a>
+      <button type="button" class="menu-open-btn" aria-label="menu">
+        <svg class="menu-open-icon" width="32" height="32">
+          <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
 
     <!-- #endregion -->
     <main>
-      <!-- #region Hero - ? -->
-      Hero
+      <!-- #region Hero - Єгор Кравченко -->
+      <section id="hero" class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">Organic Shop &ndash; Naturally better.</h1>
+    <p class="hero-text">
+      Your source for fresh, healthy, and responsibly grown food. Discover the
+      taste of nature with our carefully selected organic products.
+    </p>
+    <a href="#contacts" class="hero-btn">Get in touch</a>
+  </div>
+</section>
 
       <!-- #endregion -->
-      <!-- #region Mission - ? -->
+      <!-- #region Mission - Андрій Нечитайло -->
       <section id="mission" class="section mission">
   <div class="container mission-wrp">
     <h2 class="mission-title">
@@ -49,20 +86,26 @@
 
     <picture>
       <source
-        srcset="/git-pushers-team-project/assets/mission-picture_d@1x-BaFrhIky.jpg 1x, /git-pushers-team-project/assets/mission-picture_d@2x-CcSu3c_Y.jpg 2x"
+        srcset="/git-pushers-team-project/assets/mission-pic_d@1x-BTvvijvu.jpg 1x, /git-pushers-team-project/assets/mission-pic_d@2x-CcSu3c_Y.jpg 2x"
+        width="1312"
+        height="738"
         media="(min-width: 1440px)"
       />
       <source
-        srcset="/git-pushers-team-project/assets/mission-picture_t@1x-K_vcqcAZ.jpg 1x, /git-pushers-team-project/assets/mission-picture_t@2x-DtnGhUR1.jpg 2x"
+        srcset="/git-pushers-team-project/assets/mission-pic_t@1x-K_vcqcAZ.jpg 1x, /git-pushers-team-project/assets/mission-pic_t@2x-DtnGhUR1.jpg 2x"
+        width="704"
+        height="396"
         media="(min-width: 768px)"
       />
       <source
-        srcset="/git-pushers-team-project/assets/mission-picture_m@1x-B79D5aY9.jpg 1x, /git-pushers-team-project/assets/mission-picture_m@2x-nHzPhx0G.jpg 2x"
+        srcset="/git-pushers-team-project/assets/mission-pic_m@1x-B79D5aY9.jpg 1x, /git-pushers-team-project/assets/mission-pic_m@2x-DQPqou-5.jpg 2x"
+        width="343"
+        height="193"
         media="(max-width: 768px)"
       />
       <img
         class="mission-picture"
-        src="/git-pushers-team-project/assets/mission-picture_d@1x-BaFrhIky.jpg"
+        src="/git-pushers-team-project/assets/mission-pic_d@1x-BTvvijvu.jpg"
         alt="Friends are gathering organic vegetables"
       />
     </picture>
@@ -70,18 +113,98 @@
 </section>
 
       <!-- #endregion -->
-      <!-- #region Benefits - ? -->
-      Benefits
+      <!-- #region Benefits - Павло, Андрій Яковенко -->
+      <section id="benefits" class="benefits">
+  <div class="container benefits-wrp">
+    <picture>
+      <source
+        srcset="/git-pushers-team-project/assets/benefits-d@1x-Bbf55SAn.jpg 1x, /git-pushers-team-project/assets/benefits-d@2x-l9no3CxZ.jpg 2x"
+        width="644"
+        height="669"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/git-pushers-team-project/assets/benefits-t@1x-CuZb4EoI.jpg 1x, /git-pushers-team-project/assets/benefits-t@2x-nWIgLm2P.jpg 2x"
+        width="704"
+        height="487"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/git-pushers-team-project/assets/benefits-m@1x-C7buL7nW.jpg 1x, /git-pushers-team-project/assets/benefits-m@2x-F8ZEZGhn.jpg 2x"
+        width="343"
+        height="487"
+        media="(max-width: 768px)"
+      />
+      <img
+        class="benefits-picture"
+        src="/git-pushers-team-project/assets/benefits-d@1x-Bbf55SAn.jpg"
+        alt="fresh vegetables"
+      />
+    </picture>
+    <div class="benefits-text-block">
+      <div class="benefits-heading">
+        <h2 class="benefits-title">Why Choose Organic?</h2>
+        <p class="benefits-title-text">
+          Organic products offer a healthier choice for you and your family.
+          With no synthetic pesticides or GMOs, you can enjoy better nutrition
+          and natural flavors while supporting sustainable farming practices.
+        </p>
+      </div>
+      <ul class="benefits-items-list">
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="48" height="48">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-health"></use>
+          </svg>
+          <h3 class="benefits-item-title">Better for Your Health</h3>
+          <p class="benefits-item-text">
+            Organic foods are grown without synthetic chemicals, making them
+            safer for your body. They're rich in antioxidants and nutrients that
+            support your immune system and long-term well-being.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="48" height="48">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-basketball"></use>
+          </svg>
+          <h3 class="benefits-item-title">Protecting the Planet</h3>
+          <p class="benefits-item-text">
+            Organic farming reduces pollution, conserves water, and improves
+            soil health. By choosing organic, you're helping build a cleaner,
+            more sustainable environment for future generations.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="48" height="48">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-restaurant"></use>
+          </svg>
+          <h3 class="benefits-item-title">Fruits & Vegetables</h3>
+          <p class="benefits-item-text">
+            Freshly picked organic produce delivered straight from local farms
+            to your table.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <svg class="benefits-icon" width="48" height="48">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-cheese"></use>
+          </svg>
+          <h3 class="benefits-item-title">Dairy Products</h3>
+          <p class="benefits-item-text">
+            Creamy, organic dairy options that are both delicious and ethically
+            sourced.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
       <!-- #endregion -->
       <!-- #region Assorts - Вова Горловой -->
-      <section id="assortment" class="back-background">
-  <div class="container back">
+      <section id="assorts" class="assorts-scn">
+  <div class="container assorts-cont">
     <div>
-      <p class="text-assortment">Assortment</p>
-      <h2 class="title-assortment">
-        Explore Our Delicious Organic Product Range
-      </h2>
+      <h3 class="assorts-subtitle">Assortment</h3>
+      <h2 class="assorts-title">Explore Our Delicious Organic Product Range</h2>
       <ul class="list-product">
         <li class="product-item">
           <div class="img-wrapper">
@@ -89,8 +212,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/apple-BfM4PtvD.jpg"
-              srcset="/git-pushers-team-project/assets/apple-BfM4PtvD.jpg 1x, /git-pushers-team-project/assets/apple@2x-WCftnJdX.jpg 2x"
+              src="/git-pushers-team-project/assets/apple@1x-BfM4PtvD.jpg"
+              srcset="/git-pushers-team-project/assets/apple@1x-BfM4PtvD.jpg 1x, /git-pushers-team-project/assets/apple@2x-CjzHxO3y.jpg 2x"
               alt="apple"
             />
           </div>
@@ -102,7 +225,7 @@
               </p>
             </div>
             <div class="price-volume">
-              <h3 class="price">$3.50</h3>
+              <p class="price">$3.50</p>
               <p class="volume">per 1 <br />pound</p>
             </div>
           </div>
@@ -114,8 +237,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/spinach-BF-BacGc.jpg"
-              srcset="/git-pushers-team-project/assets/spinach-BF-BacGc.jpg 1x, /git-pushers-team-project/assets/spinach@2x-mOBjH0Dw.jpg 2x"
+              src="/git-pushers-team-project/assets/spinach@1x-BF-BacGc.jpg"
+              srcset="/git-pushers-team-project/assets/spinach@1x-BF-BacGc.jpg 1x, /git-pushers-team-project/assets/spinach@2x-BWfRavUF.jpg 2x"
               alt="spinach"
             />
           </div>
@@ -127,7 +250,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$2.80</h3>
+              <p class="price">$2.80</p>
               <p class="volume">per bunch</p>
             </div>
           </div>
@@ -139,8 +262,9 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/egg-CG-ApvY7.jpg"
-              srcset="/git-pushers-team-project/assets/egg-CG-ApvY7.jpg 1x, /git-pushers-team-project/assets/egg@2x-BDPKjC9K.jpg 2x"
+              src="
+              /img/assorts/egg@1x.jpg"
+              srcset="/git-pushers-team-project/assets/egg@1x-CG-ApvY7.jpg 1x, /git-pushers-team-project/assets/egg@2x-BjI1sZHC.jpg 2x"
               alt="egg"
             />
           </div>
@@ -152,7 +276,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$5.00</h3>
+              <p class="price">$5.00</p>
               <p class="volume">per dozen</p>
             </div>
           </div>
@@ -164,8 +288,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/milk-CL_fkdKS.jpg"
-              srcset="/git-pushers-team-project/assets/milk-CL_fkdKS.jpg 1x, /git-pushers-team-project/assets/milk@2x-vHrFvwGb.jpg 2x"
+              src="/git-pushers-team-project/assets/milk@1x-CL_fkdKS.jpg"
+              srcset="/git-pushers-team-project/assets/milk@1x-CL_fkdKS.jpg 1x, /git-pushers-team-project/assets/milk@2x-CUNniNqy.jpg 2x"
               alt="milk"
             />
           </div>
@@ -178,7 +302,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$4.20</h3>
+              <p class="price">$4.20</p>
               <p class="volume">per 1 liter</p>
             </div>
           </div>
@@ -190,8 +314,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/honey-C7PPW7pm.jpg"
-              srcset="/git-pushers-team-project/assets/honey-C7PPW7pm.jpg 1x, /git-pushers-team-project/assets/honey@2x-DyMyXZOx.jpg 2x"
+              src="/git-pushers-team-project/assets/honey@1x-C7PPW7pm.jpg"
+              srcset="/git-pushers-team-project/assets/honey@1x-C7PPW7pm.jpg 1x, /git-pushers-team-project/assets/honey@2x-zwlKo35p.jpg 2x"
               alt="honey"
             />
           </div>
@@ -204,7 +328,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$7.50</h3>
+              <p class="price">$7.50</p>
               <p class="volume">per 500 ml jar</p>
             </div>
           </div>
@@ -216,8 +340,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/carrot-CMPnzz3R.jpg"
-              srcset="/git-pushers-team-project/assets/carrot-CMPnzz3R.jpg 1x, /git-pushers-team-project/assets/carrot@2x-CSLrkYhm.jpg 2x"
+              src="/git-pushers-team-project/assets/carrot@1x-CMPnzz3R.jpg"
+              srcset="/git-pushers-team-project/assets/carrot@1x-CMPnzz3R.jpg 1x, /git-pushers-team-project/assets/carrot@2x-Qn-C6rzN.jpg 2x"
               alt="carrot"
             />
           </div>
@@ -229,7 +353,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$1.90</h3>
+              <p class="price">$1.90</p>
               <p class="volume">per 1 pound</p>
             </div>
           </div>
@@ -241,8 +365,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/bread-eBCpZ77I.jpg"
-              srcset="/git-pushers-team-project/assets/bread-eBCpZ77I.jpg 1x, /git-pushers-team-project/assets/bread@2x-n_rpJ99t.jpg 2x"
+              src="/git-pushers-team-project/assets/bread@1x-eBCpZ77I.jpg"
+              srcset="/git-pushers-team-project/assets/bread@1x-eBCpZ77I.jpg 1x, /git-pushers-team-project/assets/bread@2x-CHZiSRds.jpg 2x"
               alt="bread"
             />
           </div>
@@ -254,7 +378,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$4.80</h3>
+              <p class="price">$4.80</p>
               <p class="volume">per loaf</p>
             </div>
           </div>
@@ -266,8 +390,8 @@
               class="img-photo"
               width="343"
               height="364"
-              src="/git-pushers-team-project/assets/tea-mix-B-q1stFE.jpg"
-              srcset="/git-pushers-team-project/assets/tea-mix-B-q1stFE.jpg 1x, /git-pushers-team-project/assets/tea-mix@2x-Be6DOKe7.jpg 2x"
+              src="/git-pushers-team-project/assets/tea-mix@1x-B-q1stFE.jpg"
+              srcset="/git-pushers-team-project/assets/tea-mix@1x-B-q1stFE.jpg 1x, /git-pushers-team-project/assets/tea-mix@2x-y-DGK_ar.jpg 2x"
               alt="tea-mix"
             />
           </div>
@@ -280,7 +404,7 @@
               </p>
             </div>
             <div>
-              <h3 class="price">$6.30</h3>
+              <p class="price">$6.30</p>
               <p class="volume">per 100g</p>
             </div>
           </div>
@@ -292,12 +416,295 @@
 </section>
 
       <!-- #endregion -->
-      <!-- #region Feedbacks - ? -->
-      Feedbacks
+      <!-- #region Feedbacks - Ілля Годун -->
+      <section id="feedbacks" class="feedbacks">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="feedbacks-title">What Our Customers Say</h2>
+            <p class="feedbacks-description">We're proud to grow a community that values health, sustainability, and
+                real flavor. Read what our happy customers have
+                to say about their experience with our organic products.</p>
+        </div>
 
+        <ul class="feedbacks-list">
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">Their eco-friendly packaging is a big plus for me. Highly recommend!</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_1@1x-BFojN_xj.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_1@2x-BKH2whzx.png"
+                        alt="Tony Lee" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Tony Lee</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"I absolutely love the variety of organic produce available here.
+                        Everything is fresh and bursting with flavor!"</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_2@1x-Bc0Tre1p.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_2@2x-BiGyeZMn.png"
+                        alt="Emily Johnson" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Emily Johnson</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"The staff is incredibly knowledgeable and always willing to help me find
+                        what I need. Great service!"</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_3@1x-Cu940fOX.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_3@2x-CDE5Cwl6.png"
+                        alt="Michael Smith" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Michael Smith</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"I've noticed a significant improvement in my health since switching to
+                        their organic products. Highly recommend!"</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_4@1x-DsazFY9g.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_4@2x-DTTX3oHk.png"
+                        alt="Sarah Davis" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Sarah Davis</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"The range of organic snacks is fantastic! Perfect for my kids, who love
+                        them and I feel good about giving them healthy
+                        options."</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_5@1x-Dqi7JvMF.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_5@2x-CD3oSje-.png"
+                        alt="David Brown" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">David Brown</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"I appreciate that they source local ingredients. It makes me feel
+                        connected to the community!"</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_6@1x-DHw1Ds89.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_6@2x-BRUwJwsr.png"
+                        alt="Jessica Wilson" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Jessica Wilson</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"The prices are fair for the quality of food. I never feel guilty about
+                        spending a little more here."</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_7@1x-vbPdxw66.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_7@2x-LOy4Eneu.png"
+                        alt="Andrew Lee" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Andrew Lee</p>
+                </div>
+            </li>
+            <li class="feedbacks-list-item">
+                <div class="feedbacks-review">
+                    <div class="feedbacks-grade">
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-black"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                        <svg class="icon-mobile empty" width="20" height="19">
+                            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+                    <p class="feedback-text">"Their eco-friendly packaging is a big plus for me. It's nice to support a
+                        business that cares about the environment!"</p>
+                </div>
+
+                <div class="feedback-author">
+                    <img 
+                        class="feedback-author-img" 
+                        src="/git-pushers-team-project/assets/avatar-img_8@1x-BtFGq1y5.png" 
+                        srcset="/git-pushers-team-project/assets/avatar-img_8@2x-Bp0PI-na.png"
+                        alt="Laura Kim" 
+                        width="48"
+                        height="48">
+                    <p class="feedback-author-name">Laura Kim</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
       <!-- #endregion -->
       <!-- #region FAQ - Павло Даведюк -->
-      <section class="faq-section">
+      <section id="faq" class="faq-section">
   <div class="container faq-container">
     <div class="faq-header">
       <h2 class="faq-title">FAQs</h2>
@@ -305,76 +712,110 @@
         Here are some common questions about our organic products and services.
       </p>
     </div>
-
     <ul class="faq-list">
       <li class="faq-item">
-        <div class="faq-question-wrapper">
-          <h3 class="faq-question">Are all products organic?</h3>
-          <svg class="faq-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-chevron-down"></use>
-          </svg>
-        </div>
-        <p class="faq-answer">
-          Yes, all our products are certified organic. We prioritize quality and
-          sustainability in our sourcing. You can trust that everything you buy
-          from us meets strict organic standards.
-        </p>
+        <details class="faq-details">
+          <summary class="faq-summary">
+            <h3 class="faq-question">Are all products organic?</h3>
+            <span class="faq-question-wrapper">
+              <svg class="faq-icon icon-close" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-down"></use>
+              </svg>
+              <svg class="faq-icon icon-open" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-up"></use>
+              </svg>
+            </span>
+          </summary>
+          <p class="faq-answer">
+            Yes, all our products are certified organic. We prioritize quality
+            and sustainability in our sourcing. You can trust that everything
+            you buy from us meets strict organic standards.
+          </p>
+        </details>
       </li>
 
       <li class="faq-item">
-        <div class="faq-question-wrapper">
-          <h3 class="faq-question">Where do you source?</h3>
-          <svg class="faq-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-chevron-up"></use>
-          </svg>
-        </div>
-        <p class="faq-answer">
-          We source our products from local farmers and trusted suppliers. This
-          ensures freshness and supports our community. Our commitment is to
-          ethical and sustainable practices.
-        </p>
+        <details class="faq-details">
+          <summary class="faq-summary">
+            <h3 class="faq-question">Where do you source?</h3>
+            <span class="faq-question-wrapper">
+              <svg class="faq-icon icon-close" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-down"></use>
+              </svg>
+              <svg class="faq-icon icon-open" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-up"></use>
+              </svg>
+            </span>
+          </summary>
+          <p class="faq-answer">
+            We source our products from local farmers and trusted suppliers.
+            This ensures freshness and supports our community. Our commitment is
+            to ethical and sustainable practices.
+          </p>
+        </details>
       </li>
 
       <li class="faq-item">
-        <div class="faq-question-wrapper">
-          <h3 class="faq-question">What areas do you deliver?</h3>
-          <svg class="faq-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-chevron-up"></use>
-          </svg>
-        </div>
-        <p class="faq-answer">
-          We currently deliver to several neighborhoods in the region. Check our
-          delivery area on the website for specifics. If you're unsure, feel
-          free to reach out!
-        </p>
+        <details class="faq-details">
+          <summary class="faq-summary">
+            <h3 class="faq-question">What areas do you deliver?</h3>
+            <span class="faq-question-wrapper">
+              <svg class="faq-icon icon-close" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-down"></use>
+              </svg>
+              <svg class="faq-icon icon-open" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-up"></use>
+              </svg>
+            </span>
+          </summary>
+          <p class="faq-answer">
+            We currently deliver to several neighborhoods in the region. Check
+            our delivery area on the website for specifics. If you're unsure,
+            feel free to reach out!
+          </p>
+        </details>
       </li>
 
       <li class="faq-item">
-        <div class="faq-question-wrapper">
-          <h3 class="faq-question">Do you offer subscriptions?</h3>
-          <svg class="faq-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-chevron-up"></use>
-          </svg>
-        </div>
-        <p class="faq-answer">
-          Yes, we offer subscription plans for regular deliveries. This is a
-          convenient way to ensure you never run out of your favorite organic
-          products. You can customize your subscription based on your needs.
-        </p>
+        <details class="faq-details">
+          <summary class="faq-summary">
+            <h3 class="faq-question">Do you offer subscriptions?</h3>
+            <span class="faq-question-wrapper">
+              <svg class="faq-icon icon-close" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-down"></use>
+              </svg>
+              <svg class="faq-icon icon-open" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-up"></use>
+              </svg>
+            </span>
+          </summary>
+          <p class="faq-answer">
+            Yes, we offer subscription plans for regular deliveries. This is a
+            convenient way to ensure you never run out of your favorite organic
+            products. You can customize your subscription based on your needs.
+          </p>
+        </details>
       </li>
 
       <li class="faq-item">
-        <div class="faq-question-wrapper">
-          <h3 class="faq-question">How can I contact?</h3>
-          <svg class="faq-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-chevron-up"></use>
-          </svg>
-        </div>
-        <p class="faq-answer">
-          You can reach us via phone or email for any inquiries. Our customer
-          service team is here to help. We aim to respond to all questions
-          promptly.
-        </p>
+        <details class="faq-details">
+          <summary class="faq-summary">
+            <h3 class="faq-question">How can I contact?</h3>
+            <span class="faq-question-wrapper">
+              <svg class="faq-icon icon-close" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-down"></use>
+              </svg>
+              <svg class="faq-icon icon-open" width="24" height="24">
+                <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-chevron-up"></use>
+              </svg>
+            </span>
+          </summary>
+          <p class="faq-answer">
+            You can reach us via phone or email for any inquiries. Our customer
+            service team is here to help. We aim to respond to all questions
+            promptly.
+          </p>
+        </details>
       </li>
     </ul>
   </div>
@@ -382,37 +823,39 @@
 
       <!-- #endregion -->
       <!-- #region Contacts - Павло Даведюк -->
-      <section class="contact-section">
-  <div class="container contact-container">
-    <div class="contact-content">
-      <h3 class="contact-subtitle">Contacts</h3>
-      <h2 class="contact-title">Get in Touch</h2>
-      <p class="contact-description">We'd love to hear from you anytime!</p>
+      <section id="contacts" class="contacts-section">
+  <div class="container contacts-container">
+    <div class="contacts-content">
+      <h3 class="contacts-subtitle">Contacts</h3>
+      <h2 class="contacts-title">Get in Touch</h2>
+      <p class="contacts-description">We'd love to hear from you anytime!</p>
 
-      <ul class="contact-info">
+      <ul class="contacts-info">
         <li>
-          <svg class="contact-icon" width="24" height="24">
-<use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-envelope"></use>
+          <svg class="contacts-icon" width="24" height="24">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-envelope"></use>
           </svg>
           <a href="mailto:hello@organicstore.com" class="contact-link"
             >hello@organicstore.com</a
           >
         </li>
         <li>
-          <svg class="contact-icon" width="24" height="24">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-phone"></use>
+          <svg class="contacts-icon" width="24" height="24">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-phone"></use>
           </svg>
-          <a href="tel:+15553291024" class="contact-link">+1 (555) 329-1024</a>
+          <a href="tel:+15553291024" class="contacts-link">+1 (555) 329-1024</a>
         </li>
       </ul>
 
-      <form class="contact-form">
+      <form class="contacts-form">
         <div class="form-group">
           <label for="user-name">Name</label>
           <input
             type="text"
             id="user-name"
             name="name"
+            autocomplete="name"
+            class="contact-form-input"
             pattern="^[a-zA-Z\s\.]{5,64}$"
             placeholder="Sarah"
             required
@@ -424,6 +867,8 @@
             type="email"
             id="user-email"
             name="email"
+            autocomplete="email"
+            class="contact-form-input"
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             placeholder="hello@organic.com"
             required
@@ -434,6 +879,8 @@
           <textarea
             id="user-message"
             name="message"
+            autocomplete="off"
+            class="contact-form-input"
             maxlength="500"
             placeholder="Type your message..."
             required
@@ -443,70 +890,71 @@
       </form>
     </div>
 
-    <div class="contact-image-wrapper">
-<picture>
-  <source 
-    srcset="/git-pushers-team-project/assets/family@1-BObBKUWh.jpg 1x, /git-pushers-team-project/assets/family@2-vWj6WUGC.jpg 2x" 
-    media="(min-width: 1440px)"
-  />
-  <source 
-    srcset="/git-pushers-team-project/assets/family@1-BObBKUWh.jpg 1x, /git-pushers-team-project/assets/family@2-vWj6WUGC.jpg 2x" 
-    media="(min-width: 768px)"
-  />
-  <source 
-    srcset="/git-pushers-team-project/assets/family@1-BObBKUWh.jpg 1x, /git-pushers-team-project/assets/family@2-vWj6WUGC.jpg 2x"
-  />
+    <div class="contacts-image-wrapper">
+      <picture>
+        <source
+          srcset="/git-pushers-team-project/assets/family@1x-BVqfgxQG.jpg 1x, /git-pushers-team-project/assets/family@2x-DeTXdth3.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/git-pushers-team-project/assets/family@1x-BVqfgxQG.jpg 1x, /git-pushers-team-project/assets/family@2x-DeTXdth3.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/git-pushers-team-project/assets/family@1x-BVqfgxQG.jpg 1x, /git-pushers-team-project/assets/family@2x-DeTXdth3.jpg 2x"
+        />
 
-  <img 
-    src="/git-pushers-team-project/assets/family@1-BObBKUWh.jpg" 
-    alt="Our friendly team" 
-    class="contact-image" 
-    loading="lazy"
-  />
-</picture>
+        <img
+          src="/git-pushers-team-project/assets/family@1x-BVqfgxQG.jpg"
+          alt="Our friendly team"
+          class="contact-image"
+          loading="lazy"
+        />
+      </picture>
     </div>
   </div>
 </section>
+
       <!-- #endregion -->
     </main>
-    <!-- #region Footer - Andrew Yakovenko -->
-    <footer id="footer" class="shop-footer">
-  <div class="footer-main container">
+    <!-- #region Footer - Андрій Яковенко -->
+    <footer id="footer" class="footer-section">
+  <div class="footer-cont container">
     <div class="footer-wrapper">
       <div class="footer-logo">
-        <a href="./index.html" class="footer-logo-link">
-          <svg class="footer-logo-svg" fill="#ffffff">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-logo" />
+        <a
+          href="./index.html"
+          class="footer-logo-link"
+          aria-label="Organic Shop logo"
+        >
+          <svg class="footer-logo-svg">
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-logo" />
           </svg>
         </a>
       </div>
-      <div class="footer-links">
-        <nav class="footer-nav">
-          <ul class="footer-nav-list">
-            <li class="footer-nav-item">
-              <a href="./index.html" class="footer-link">Home</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="#mission" class="footer-link">Mission</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="" class="footer-link">Benefits</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="#assortment" class="footer-link">Assortment</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="" class="footer-link">Feedbacks</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="" class="footer-link">FAQ</a>
-            </li>
-            <li class="footer-nav-item">
-              <a href="" class="footer-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="./index.html" class="footer-link">Home</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#mission" class="footer-link">Mission</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#benefits" class="footer-link">Benefits</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#assorts" class="footer-link">Assortment</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#feedbacks" class="footer-link">Feedbacks</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#faq" class="footer-link">FAQ</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#contacts" class="footer-link">Contacts</a>
+        </li>
+      </ul>
       <ul class="footer-socials">
         <li>
           <a
@@ -514,9 +962,10 @@
             href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Facebook"
           >
-            <svg class="footer-social-icon" fill="#ffffff">
-              <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-Facebook" />
+            <svg class="footer-social-icon">
+              <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-Facebook" />
             </svg>
           </a>
         </li>
@@ -526,9 +975,10 @@
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Instagram"
           >
-            <svg class="footer-social-icon" fill="#ffffff">
-              <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-Instagram" />
+            <svg class="footer-social-icon">
+              <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-Instagram" />
             </svg>
           </a>
         </li>
@@ -538,9 +988,10 @@
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="X"
           >
-            <svg class="footer-social-icon" fill="#ffffff">
-              <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-X" />
+            <svg class="footer-social-icon">
+              <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-X" />
             </svg>
           </a>
         </li>
@@ -550,9 +1001,10 @@
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
-            <svg class="footer-social-icon" fill="#ffffff">
-              <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-LinkedIn" />
+            <svg class="footer-social-icon">
+              <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-LinkedIn" />
             </svg>
           </a>
         </li>
@@ -562,9 +1014,10 @@
             href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="YouTube"
           >
-            <svg class="footer-social-icon" fill="#ffffff">
-              <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-Youtube" />
+            <svg class="footer-social-icon">
+              <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-Youtube" />
             </svg>
           </a>
         </li>
@@ -577,20 +1030,20 @@
 </footer>
 
     <!-- #endregion -->
-    <!-- #region Menu - Andrew Yakovenko -->
+    <!-- #region Menu - Андрій Яковенко -->
     <div id="menu" class="menu">
   <div class="menu-container">
     <div class="menu-header">
       <div class="menu-logo">
         <a href="./index.html" class="menu-logo-link">
           <svg class="menu-logo-svg" fill="#ffffff">
-            <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-logo" />
+            <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-logo" />
           </svg>
         </a>
       </div>
       <button class="menu-close" type="button">
         <svg width="32" height="32" fill="#ffffff">
-          <use href="/git-pushers-team-project/assets/sprite-DJSfSb5T.svg#icon-close-btn" />
+          <use href="/git-pushers-team-project/assets/sprite-BgheZEzv.svg#icon-close-btn" />
         </svg>
       </button>
     </div>
@@ -607,7 +1060,7 @@
             <a href="#benefits" class="menu-link">Benefits</a>
           </li>
           <li class="menu-nav-item">
-            <a href="#assortment" class="menu-link">Assortment</a>
+            <a href="#assorts" class="menu-link">Assortment</a>
           </li>
           <li class="menu-nav-item">
             <a href="#feedbacks" class="menu-link">Feedbacks</a>
@@ -620,13 +1073,12 @@
           </li>
         </ul>
       </nav>
-      <button class="menu-order" type="button">Order</button>
+      <a class="menu-order" href="#assorts">Order</a>
     </div>
   </div>
 </div>
 
     <!-- #endregion -->
 
-    <!-- <script type="module" src="./main.js"></script> -->
   </body>
 </html>
