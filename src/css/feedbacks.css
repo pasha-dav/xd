@@ -1,0 +1,129 @@
+.feedbacks {
+  background-color: #e8eee5;
+}
+
+.section-title {
+  max-width: 343px;
+  margin: 0 auto 24px;
+}
+
+.feedbacks-title {
+  font-family: 'Chivo', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #010400;
+  margin-bottom: 16px;
+}
+
+.feedbacks-description {
+  text-align: center;
+  color: #010400;
+}
+
+.feedbacks-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  max-width: 375px;
+}
+
+.feedbacks-list-item {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+  padding: 32px;
+  max-width: 375px;
+  min-width: 272px;
+  height: 314px;
+  background: #e8eee5;
+}
+
+.feedbacks-review {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.feedbacks-grade {
+  max-height: 19px;
+}
+
+.feedback-text {
+  max-width: 279px;
+  color: #010400;
+}
+
+.feedback-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.feedback-author-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #010400;
+}
+
+.icon-mobile.empty {
+  stroke-width: 1px;
+  stroke: #010400;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-title {
+    max-width: 644px;
+  }
+
+  .feedbacks-title {
+    margin-bottom: 24px;
+  }
+
+  .feedbacks-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 24px;
+    max-width: 704px;
+  }
+
+  .feedbacks-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+    max-width: 340px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-title {
+    margin-bottom: 80px;
+  }
+
+  .feedbacks-title {
+    font-size: 48px;
+  }
+
+  .feedbacks-list {
+    max-width: 1312px;
+  }
+
+  .feedbacks-list-item {
+    flex-basis: calc((100% - 72px) / 3);
+    max-width: 310px;
+  }
+
+  .feedbacks-review {
+    width: 246px;
+  }
+}
